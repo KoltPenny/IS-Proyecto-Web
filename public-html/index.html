@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/fonts.css">
+		<script src="scripts/jquery.js"></script>
+		<script src="scripts/welcome.js"></script>
+	</head>
+	<body>
+		<!--Separación superior-->
+		<div class="row-20 col-full" id="toprow"></div>
+		<!--Separación media-->
+		<div class=" row-60 col-full" id="midrow">
+			<div class="boundtest row-full col-33"></div>
+			<!--INICIA: Bloque de login-->
+			<div class="boundtest middle-block row-full col-34" id="loginblock" hidden>
+				<div class="boundtest logintitle row-30 col-full"><p>Bienvenido</p></div>
+				<div class="boundtest row-33 col-full">
+					<div class="row-full col-05"></div>
+					<!--Formulario principal de login-->
+					<div class="row-full col-90">
+						<!--div class="boundtest row-10 col-full"></div-->
+						<form style="position:relative;height:100%;width:100%;" id="loginform">
+							<input class="input-text row-33 col-70" type="text" placeholder="Usuario"/>
+							<input class="input-button row-33 col-30" type="button" value="Entrar" />
+							<div class="boundtest row-10 col-full"></div>
+							<input class="input-text row-33 col-70" type="password" placeholder="Contraseña"/>
+							<input class="input-button row-33 col-30" type="button" value="Recuperar" />
+							<div class="boundtest registerbutton row-25 col-full" id="register"><p><u>Registrar</u></p></div>
+						</form>
+					</div>
+					<!---->
+				</div>
+				<div class="boundtest row-33 col-full">
+					<div class="boundtest external row-50 col-full">
+						<img class="row-full" src="imgs/glogo.svg"/>
+						<img class="row-full" src="imgs/fb.svg"/>
+					</div>
+					<div class="row-25 col-full">
+						<div class="boundtest row-full col-20"></div>
+						<div class="boundtest input-checkbox row-full col-10">
+							<input type="checkbox" form="loginform" id="checkb"/><label for="checkb"></label></div>
+						<div class="checktext row-full col-70"><p>Mantenerme Conectado</p></div></div>
+					<div class="forgot row-30 col-full"><p><u>Olvidé mi contraseña</u></p></div></div>
+				
+			</div>
+			<div class="boundtest middle-block row-full col-32" id="regblock" hidden>
+				<div class="boundtest logintitle row-15 col-full" id="minititle"><p>Registro</p></div>
+				<div class="boundtest row-33 col-full">
+					<div class="row-full col-10"></div>
+					<!--Formulario principal de registro-->
+					<div class="boundtest row-full col-80">
+						<!--div class="boundtest row-10 col-full"></div-->
+						<form style="position:relative;height:100%;width:100%;" id="loginform">
+							<input class="input-text-reg row-33 col-full" type="text" placeholder="Correo"/>
+							<div class="boundtest row-10 col-full"></div>
+							<input class="input-text-reg row-33 col-full" type="text" placeholder="Contraseña"/>
+							<div class="boundtest row-10 col-full"></div>
+							<input class="input-text-reg row-33 col-full" type="text" placeholder="Repetir contraseña"/>
+							<div class="boundtest row-10 col-full"></div>
+							<input class="input-text-reg row-33 col-full" type="text" placeholder="Usuario (tutor)"/>
+							<div class="boundtest row-10 col-full"></div>
+							<input class="input-text-reg row-33 col-full" type="text" placeholder="Niño (tutorado)"/>
+							<div class="boundtest row-10 col-full"></div>
+							<input class="input-button-reg row-33 col-full" type="button" value="Crear cuenta" />
+							<!--div class="boundtest registerbutton row-25 col-full" id="register"><p><u>Registrar</u></p></div-->
+						</form>
+					</div>
+					<!---->
+				</div>
+				<div class="boundtest row-33 col-full">
+					<div class="row-25 col-full">
+						<div class="boundtest row-full col-20"></div></div></div>
+				
+			</div>
+			<!--TERMINA: Bloque de login-->
+		</div>
+		<div id="robot"><img src="imgs/robot.png"/></div>
+		<div id="numbers"><img src="imgs/numbers.png"/></div>
+	</body>
+</html>
