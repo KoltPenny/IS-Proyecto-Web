@@ -6,7 +6,7 @@ Este es el repositorio del proyecto web para la materia de Ingeniería de Softwa
 
 ## Push y comentarios
 
-Cambios que se hagan al programa, favor de comentarlos. Deben subir un archivos [tu_nombre].log con los cambios que hicieron, es decir, elementos que quitaron o elementos nuevos, ya sea una función nueva o reordenamiento de elementos en un archivo.
+Cambios que se hagan al programa, favor de comentarlos. Deben subir un archivo [tu_nombre].log con los cambios que hicieron en el directorio llamado logs, es decir, elementos que quitaron o elementos nuevos, ya sea una función nueva o reordenamiento de elementos en un archivo.
 
 ## Motivación
 
