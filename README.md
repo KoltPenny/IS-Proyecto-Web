@@ -14,6 +14,8 @@ Hay que sacar 10 muchachos.
 
 ## Instación
 
+Para hacer el branching del proyecto solo den click al desplegable que dice "Branch" usen la barra de buscar para escribir un nombre de su nuevo branch y díganle que sí quieren crearlo.
+
 Un branch es una "derivación" del proyecto actual. Así pueden añadir sus cambios sin afectar el principal. Después se revisan los cambios y se fusionan.
 
 Solo clonen el git con: `git clone -b nombre_de_tu_version [URL de tu Branch]` y listo.
