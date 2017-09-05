@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -23,10 +27,10 @@
 					<div class="row-full col-90">
 						<!--div class="boundtest row-10 col-full"></div-->
 						<form style="position:relative;height:100%;width:100%;" id="loginform">
-							<input class="input-text row-33 col-70" type="text" placeholder="Usuario"/>
-							<input class="input-button row-33 col-30" type="button" value="Entrar" />
+							<input class="input-text row-33 col-70" type="text" placeholder="Usuario" id="user"/>
+							<input class="input-button row-33 col-30" type="button" value="Entrar" id="enter"/>
 							<div class="boundtest row-10 col-full"></div>
-							<input class="input-text row-33 col-70" type="password" placeholder="Contraseña"/>
+							<input class="input-text row-33 col-70" type="password" placeholder="Contraseña" id="pwd"/>
 							<input class="input-button row-33 col-30" type="button" value="Recuperar" />
 							<div class="boundtest registerbutton row-25 col-full" id="register"><p><u>Registrar</u></p></div>
 						</form>
