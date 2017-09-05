@@ -24,6 +24,18 @@ $(document).ready(function() {
 				if(data==="Success"){
 					window.location.href = 'user.php';
 				}
+				if(data==="Failed"){
+					$("#pwd,#user").val("");
+					$("#pwd,#user").css("border","2px solid #ff00cc");
+					$("#user").attr("placeholder","Usuario o contraseña");
+					$("#pwd").attr("placeholder","no coinciden.");
+					window.setTimeout(
+						function(){
+							$("#pwd,#user").css("border","1px solid #ccc");
+							$("#user").attr("placeholder","Usuario");
+							$("#pwd").attr("placeholder","Contraseña");
+						}, 3000);
+				}
 			}
 		});
 	});

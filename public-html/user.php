@@ -1,4 +1,5 @@
 <?php
+session_start();
 $previous = "window.history.go(-1)";
 ?>
 

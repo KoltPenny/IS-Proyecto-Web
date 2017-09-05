@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 function getrekt() {
     $servername = "localhost";
     $username = "root";
@@ -25,12 +25,12 @@ function getrekt() {
     {
         while($row = mysqli_fetch_row($squery))
         {
-            var_dump($row[0]);
-            $_SESSION['usr'] = $row[0];
+            $_SESSION['usr'] = $row[1];
         }
-        echo "Success";
+        
+        echo 'Success';
     }
-    else echo "Error";
+    else echo 'Failed';
 }
 
 if($_POST['fun']=="mail")
