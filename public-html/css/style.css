@@ -8,7 +8,8 @@ html,body {width: 100%;	height: 100%;}
 
 /*LAYOUT DESKTOP*/
 @media only screen and (min-width: 768px) {
-
+		
+		/*Clases generales del CSS Grid*/
     [class*="col-"] {
 				float: left;
 				padding: 0px;
@@ -51,6 +52,10 @@ html,body {width: 100%;	height: 100%;}
 
 		//.boundtest{border:1px solid darkblue;}
 
+		/*Terminan clases generales*/
+
+
+		/*Clases y elementos del login*/
 		.logintitle p{
 				position: relative;
 				font-family: Montserrat;
@@ -180,10 +185,11 @@ html,body {width: 100%;	height: 100%;}
 				border: 2px solid #FF0088;
 		}
 
-
 		#robot {z-index:-2;position:fixed; height:65vh; bottom:0px; right:0px;}
 		#robot img{position:relative;height:100%;}
 		#numbers {z-index:-1;position:fixed; width:100%; top:0px;}
 		#numbers img{position:relative;height:100%;width:100%;}
 		#minititle p {font-size:2em;}
+
+		/*Terminan clases y elementos del login.*/
 }
