@@ -1,0 +1,1067 @@
+[29-Nov-2017 04:06:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:06:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:06:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:06:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:07:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:07:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:07:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:07:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:08:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:08:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:08:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:08:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:08:20 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/amrth19652010/controller/Database.php on line 14
+[29-Nov-2017 04:08:20 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/amrth19652010/controller/Database.php on line 15
+[29-Nov-2017 04:08:20 UTC] select nomPila,ApPater,ApMater,tipo from Empleado where (nEmp='A' and Hash='86f7e437faa5a7fce15d1ddcb9eaeaea377667b8' and (tipo='P' or tipo='A'))
+[29-Nov-2017 04:08:20 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 28
+[29-Nov-2017 04:08:20 UTC] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 29
+[29-Nov-2017 04:08:20 UTC] 
+[29-Nov-2017 04:08:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:08:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:08:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:08:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:08:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:08:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:08:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:08:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:10:07 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:10:07 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:10:07 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:10:07 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:12:13 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:12:13 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:12:13 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:12:13 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:12:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:12:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:12:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:12:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:22:19 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:22:19 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:22:19 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:22:19 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:22:19 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:22:19 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:22:19 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:22:19 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:22:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:22:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:22:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:22:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:22:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:22:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:22:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:22:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:22:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:22:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:22:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:22:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:22:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:22:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:22:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:22:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:22:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:22:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:22:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:22:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:22:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:22:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:22:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:22:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:22:38 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:22:38 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:22:38 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:22:38 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:24:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:24:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:24:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:24:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:24:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:24:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:24:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:24:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:24:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:24:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:24:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:24:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:24:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:24:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:24:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:24:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:28:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:28:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:28:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:28:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:28:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:28:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:28:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:28:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:28:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:28:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:28:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:28:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:28:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:28:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:28:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:28:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:28:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:28:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:28:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:28:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:28:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:28:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:28:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:28:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:28:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:28:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:28:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:28:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:28:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:28:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:28:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:28:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:28:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:28:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:28:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:28:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:28:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:28:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:28:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:28:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:28:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:28:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:28:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:28:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:28:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:28:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:28:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:28:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:29:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:29:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:29:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:29:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:29:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:29:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:29:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:29:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:29:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:29:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:29:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:29:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:29:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:29:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:29:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:29:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:29:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:29:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:29:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:29:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:29:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:29:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:29:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:29:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:29:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:29:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:29:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:29:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:29:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:29:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:29:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:29:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:29:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:29:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:29:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:29:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:29:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:29:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:29:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:29:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:29:13 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:29:13 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:29:13 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:29:13 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:29:50 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:29:50 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:29:50 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:29:50 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:34:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:34:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:34:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:34:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:34:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:34:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:34:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:34:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 04:34:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 04:34:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 04:34:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 04:34:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:34:57 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 40
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:45:44 UTC] PHP Notice:  Undefined variable: hash in /home/amrth19652010/public_html/saes/insert.php on line 43
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:46:28 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:42 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:43 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:45 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:46 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:47 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:47:49 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:48:38 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:49:17 UTC] PHP Notice:  Undefined offset: 1 in /home/amrth19652010/public_html/saes/insert.php on line 26
+[29-Nov-2017 08:58:28 UTC] PHP Warning:  fopen(imparte.csv): failed to open stream: No such file or directory in /home/amrth19652010/public_html/saes/insert.php on line 44
+[29-Nov-2017 08:58:30 UTC] PHP Warning:  fopen(imparte.csv): failed to open stream: No such file or directory in /home/amrth19652010/public_html/saes/insert.php on line 44
+[29-Nov-2017 08:58:31 UTC] PHP Warning:  fopen(imparte.csv): failed to open stream: No such file or directory in /home/amrth19652010/public_html/saes/insert.php on line 44
+[29-Nov-2017 08:58:32 UTC] PHP Warning:  fopen(imparte.csv): failed to open stream: No such file or directory in /home/amrth19652010/public_html/saes/insert.php on line 44
+[29-Nov-2017 17:29:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 17:29:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 17:29:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 17:29:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 17:29:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 17:29:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 17:29:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 17:29:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 17:29:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 17:29:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 17:29:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 17:29:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 17:30:58 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 17:30:58 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 17:30:58 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 17:30:58 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 17:33:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 17:33:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 17:33:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 17:33:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 17:33:20 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/amrth19652010/controller/Database.php on line 14
+[29-Nov-2017 17:33:20 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/amrth19652010/controller/Database.php on line 15
+[29-Nov-2017 17:33:20 UTC] select nomPila,ApPater,ApMater from Empleado where
+(nEmp='A000000000' and Hash='5f50a84c1fa3bcff146405017f36aec1a10a9e38' and tipo='G')
+[29-Nov-2017 17:33:20 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 28
+[29-Nov-2017 17:33:20 UTC] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 29
+[29-Nov-2017 17:33:20 UTC] 
+[29-Nov-2017 17:33:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 17:33:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 17:33:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 17:33:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 19:47:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 19:47:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 19:47:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 19:47:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 19:48:07 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 19:48:07 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 19:48:07 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 19:48:07 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 22:55:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 22:55:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 22:55:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 22:55:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 22:55:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 22:55:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 22:55:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 22:55:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 22:55:42 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/amrth19652010/controller/Database.php on line 14
+[29-Nov-2017 22:55:42 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/amrth19652010/controller/Database.php on line 15
+[29-Nov-2017 22:55:42 UTC] select nomPila,ApPater,ApMater from Empleado where
+(nEmp='0000000000' and Hash='f1e991ccb62513e70689767a7313a9e9ba9fe6d3' and tipo='G')
+[29-Nov-2017 22:55:42 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 28
+[29-Nov-2017 22:55:42 UTC] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 29
+[29-Nov-2017 22:55:42 UTC] 
+[29-Nov-2017 22:55:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 22:55:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 22:55:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 22:55:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 22:55:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 22:55:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 22:55:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 22:55:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 22:55:57 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/amrth19652010/controller/Database.php on line 14
+[29-Nov-2017 22:55:57 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/amrth19652010/controller/Database.php on line 15
+[29-Nov-2017 22:55:57 UTC] select nomPila,ApPater,ApMater from Empleado where
+(nEmp='0000000000' and Hash='f1e991ccb62513e70689767a7313a9e9ba9fe6d3' and tipo='G')
+[29-Nov-2017 22:55:57 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 28
+[29-Nov-2017 22:55:57 UTC] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 29
+[29-Nov-2017 22:55:57 UTC] 
+[29-Nov-2017 22:55:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 22:55:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 22:55:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 22:55:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:07:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:07:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:07:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:07:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:07:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:07:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:07:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:07:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:07:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:07:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:07:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:07:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:07:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:07:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:07:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:07:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:07:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:07:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:07:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:07:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:08:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:08:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:08:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:08:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:08:35 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/amrth19652010/controller/Database.php on line 14
+[29-Nov-2017 23:08:35 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/amrth19652010/controller/Database.php on line 15
+[29-Nov-2017 23:08:35 UTC] select nomPila,ApPater,ApMater from Empleado where
+(nEmp='1234567890' and Hash='50c9e8d5fc98727b4bbc93cf5d64a68db647f04f' and tipo='G')
+[29-Nov-2017 23:08:35 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 28
+[29-Nov-2017 23:08:35 UTC] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 29
+[29-Nov-2017 23:08:35 UTC] 
+[29-Nov-2017 23:08:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:08:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:08:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:08:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:09:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:09:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:09:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:09:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:09:29 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/amrth19652010/controller/Database.php on line 14
+[29-Nov-2017 23:09:29 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/amrth19652010/controller/Database.php on line 15
+[29-Nov-2017 23:09:29 UTC] select NomPila,ApPaterno,ApMaterno from Estudiante where (IdEstudiante= '1234567890' and Hash='50c9e8d5fc98727b4bbc93cf5d64a68db647f04f')
+[29-Nov-2017 23:09:29 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 28
+[29-Nov-2017 23:09:29 UTC] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 29
+[29-Nov-2017 23:09:29 UTC] 
+[29-Nov-2017 23:09:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:09:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:09:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:09:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:12:14 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:12:14 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:12:14 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:12:14 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:12:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:12:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:12:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:12:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:12:20 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/amrth19652010/controller/Database.php on line 14
+[29-Nov-2017 23:12:20 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/amrth19652010/controller/Database.php on line 15
+[29-Nov-2017 23:12:20 UTC] select nomPila,ApPater,ApMater from Empleado where
+(nEmp='1234567890' and Hash='356a192b7913b04c54574d18c28d46e6395428ab' and tipo='G')
+[29-Nov-2017 23:12:20 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 28
+[29-Nov-2017 23:12:20 UTC] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 29
+[29-Nov-2017 23:12:20 UTC] 
+[29-Nov-2017 23:12:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:12:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:12:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:12:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:15:02 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:15:02 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:15:02 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:15:02 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:15:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:15:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:15:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:15:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:15:39 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'i0000000root'@'localhost' (using password: YES) in /home/amrth19652010/controller/Database.php on line 14
+[29-Nov-2017 23:15:39 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/amrth19652010/controller/Database.php on line 15
+[29-Nov-2017 23:15:39 UTC] select nomPila,ApPater,ApMater from Empleado where
+(nEmp='A000000000' and Hash='52db9057163f2b831a5452d895239a249597d1cc' and tipo='G')
+[29-Nov-2017 23:15:39 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 28
+[29-Nov-2017 23:15:39 UTC] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 29
+[29-Nov-2017 23:15:39 UTC] 
+[29-Nov-2017 23:15:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:15:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:15:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:15:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:16:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:16:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:16:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:16:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:16:00 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'i0000000root'@'localhost' (using password: YES) in /home/amrth19652010/controller/Database.php on line 14
+[29-Nov-2017 23:16:00 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/amrth19652010/controller/Database.php on line 15
+[29-Nov-2017 23:16:00 UTC] select nomPila,ApPater,ApMater from Empleado where
+(nEmp='A000000000' and Hash='52db9057163f2b831a5452d895239a249597d1cc' and tipo='G')
+[29-Nov-2017 23:16:00 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 28
+[29-Nov-2017 23:16:00 UTC] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 29
+[29-Nov-2017 23:16:00 UTC] 
+[29-Nov-2017 23:16:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:16:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:16:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:16:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:17:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:17:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:17:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:17:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:17:23 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'i0000000root'@'localhost' (using password: YES) in /home/amrth19652010/controller/Database.php on line 14
+[29-Nov-2017 23:17:23 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/amrth19652010/controller/Database.php on line 15
+[29-Nov-2017 23:17:23 UTC] select nomPila,ApPater,ApMater,tipo from Empleado where (nEmp='EM00000001' and Hash='2d8d596a0b97569f9226a8c33ed9c6dbc8d88120' and (tipo='P' or tipo='A'))
+[29-Nov-2017 23:17:23 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 28
+[29-Nov-2017 23:17:23 UTC] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 29
+[29-Nov-2017 23:17:23 UTC] 
+[29-Nov-2017 23:17:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:17:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:17:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:17:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:17:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:17:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:17:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:17:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:17:30 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'i0000000root'@'localhost' (using password: YES) in /home/amrth19652010/controller/Database.php on line 14
+[29-Nov-2017 23:17:30 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/amrth19652010/controller/Database.php on line 15
+[29-Nov-2017 23:17:30 UTC] select NomPila,ApPaterno,ApMaterno from Estudiante where (IdEstudiante= 'ASDASDA' and Hash='f10e2821bbbea527ea02200352313bc059445190')
+[29-Nov-2017 23:17:30 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 28
+[29-Nov-2017 23:17:30 UTC] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 29
+[29-Nov-2017 23:17:30 UTC] 
+[29-Nov-2017 23:17:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:17:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:17:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:17:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:19:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:19:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:19:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:19:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:19:43 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'i0000000root'@'localhost' (using password: YES) in /home/amrth19652010/controller/Database.php on line 14
+[29-Nov-2017 23:19:43 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/amrth19652010/controller/Database.php on line 15
+[29-Nov-2017 23:19:43 UTC] select NomPila,ApPaterno,ApMaterno from Estudiante where (IdEstudiante= '1234567890' and Hash='a5eabf1c425be55d3bcda189b47972a2a27e6830')
+[29-Nov-2017 23:19:43 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 28
+[29-Nov-2017 23:19:43 UTC] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 29
+[29-Nov-2017 23:19:43 UTC] 
+[29-Nov-2017 23:19:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:19:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:19:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:19:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:21:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:21:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:21:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:21:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:21:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:21:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:21:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:21:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:21:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:21:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:21:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:21:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:21:42 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'i0000000root'@'localhost' (using password: YES) in /home/amrth19652010/controller/Database.php on line 14
+[29-Nov-2017 23:21:42 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/amrth19652010/controller/Database.php on line 15
+[29-Nov-2017 23:21:42 UTC] select nomPila,ApPater,ApMater,tipo from Empleado where (nEmp='1234567890' and Hash='95bc8877a611704b51d3a24eada62cb6fa760d1e' and (tipo='P' or tipo='A'))
+[29-Nov-2017 23:21:42 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 28
+[29-Nov-2017 23:21:42 UTC] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 29
+[29-Nov-2017 23:21:42 UTC] 
+[29-Nov-2017 23:21:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:21:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:21:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:21:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:21:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:21:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:21:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:21:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:21:46 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'i0000000root'@'localhost' (using password: YES) in /home/amrth19652010/controller/Database.php on line 14
+[29-Nov-2017 23:21:46 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/amrth19652010/controller/Database.php on line 15
+[29-Nov-2017 23:21:46 UTC] select NomPila,ApPaterno,ApMaterno from Estudiante where (IdEstudiante= 'A' and Hash='86f7e437faa5a7fce15d1ddcb9eaeaea377667b8')
+[29-Nov-2017 23:21:46 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 28
+[29-Nov-2017 23:21:46 UTC] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 29
+[29-Nov-2017 23:21:46 UTC] 
+[29-Nov-2017 23:21:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:21:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:21:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:21:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:22:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:22:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:22:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:22:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:22:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:22:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:22:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:22:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:22:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:22:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:22:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:22:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:22:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:22:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:22:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:22:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:22:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:22:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:22:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:22:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:22:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:22:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:22:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:22:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:22:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:22:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:22:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:22:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:22:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:22:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:22:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:22:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:22:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:22:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:22:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:22:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:22:32 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'i0000000root'@'localhost' (using password: YES) in /home/amrth19652010/controller/Database.php on line 14
+[29-Nov-2017 23:22:32 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/amrth19652010/controller/Database.php on line 15
+[29-Nov-2017 23:22:32 UTC] select NomPila,ApPaterno,ApMaterno from Estudiante where (IdEstudiante= '7890' and Hash='660402a77e2cf001226fe5d9ce17f3d392695d9e')
+[29-Nov-2017 23:22:32 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 28
+[29-Nov-2017 23:22:32 UTC] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 29
+[29-Nov-2017 23:22:32 UTC] 
+[29-Nov-2017 23:22:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:22:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:22:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:22:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:24:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:24:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:24:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:24:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:24:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:24:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:24:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:24:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:24:33 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'i0000000root'@'localhost' (using password: YES) in /home/amrth19652010/controller/Database.php on line 14
+[29-Nov-2017 23:24:33 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/amrth19652010/controller/Database.php on line 15
+[29-Nov-2017 23:24:33 UTC] select NomPila,ApPaterno,ApMaterno from Estudiante where (IdEstudiante= '1234567890' and Hash='c8c92f464126edf9e49f874d027c53fc2905dc0e')
+[29-Nov-2017 23:24:33 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 28
+[29-Nov-2017 23:24:33 UTC] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 29
+[29-Nov-2017 23:24:33 UTC] 
+[29-Nov-2017 23:24:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:24:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:24:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:24:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:25:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:25:40 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING), expecting function (T_FUNCTION) in /home/amrth19652010/controller/Database.php on line 3
+[29-Nov-2017 23:25:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:25:42 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING), expecting function (T_FUNCTION) in /home/amrth19652010/controller/Database.php on line 3
+[29-Nov-2017 23:26:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:26:10 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING), expecting function (T_FUNCTION) in /home/amrth19652010/controller/Database.php on line 3
+[29-Nov-2017 23:26:11 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:26:11 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING), expecting function (T_FUNCTION) in /home/amrth19652010/controller/Database.php on line 3
+[29-Nov-2017 23:26:11 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:26:11 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING), expecting function (T_FUNCTION) in /home/amrth19652010/controller/Database.php on line 3
+[29-Nov-2017 23:26:19 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:26:19 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING), expecting function (T_FUNCTION) in /home/amrth19652010/controller/Database.php on line 3
+[29-Nov-2017 23:27:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:27:32 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING), expecting function (T_FUNCTION) in /home/amrth19652010/controller/Database.php on line 3
+[29-Nov-2017 23:27:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:27:33 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING), expecting function (T_FUNCTION) in /home/amrth19652010/controller/Database.php on line 3
+[29-Nov-2017 23:27:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:27:33 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING), expecting function (T_FUNCTION) in /home/amrth19652010/controller/Database.php on line 3
+[29-Nov-2017 23:27:34 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:27:34 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING), expecting function (T_FUNCTION) in /home/amrth19652010/controller/Database.php on line 3
+[29-Nov-2017 23:27:34 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:27:34 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING), expecting function (T_FUNCTION) in /home/amrth19652010/controller/Database.php on line 3
+[29-Nov-2017 23:27:45 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:27:45 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:27:45 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:27:45 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:27:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:27:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:27:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:27:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:27:59 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:27:59 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING), expecting function (T_FUNCTION) in /home/amrth19652010/controller/Database.php on line 3
+[29-Nov-2017 23:28:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:28:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:28:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:28:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:31:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:31:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:31:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:31:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:41:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:41:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:41:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:41:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:41:18 UTC] select NomPila,ApPaterno,ApMaterno from Estudiante where (IdEstudiante= '1I8YIUY' and Hash='39765e247f4cce08ffe669a2dffb99410a09438c')
+[29-Nov-2017 23:41:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:41:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:41:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:41:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:41:30 UTC] select NomPila,ApPaterno,ApMaterno from Estudiante where (IdEstudiante= '1I8YIUY' and Hash='39765e247f4cce08ffe669a2dffb99410a09438c')
+[29-Nov-2017 23:41:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:41:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:41:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:41:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:41:30 UTC] select NomPila,ApPaterno,ApMaterno from Estudiante where (IdEstudiante= '1I8YIUY' and Hash='39765e247f4cce08ffe669a2dffb99410a09438c')
+[29-Nov-2017 23:41:31 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:41:31 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:41:31 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:41:31 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:41:31 UTC] select NomPila,ApPaterno,ApMaterno from Estudiante where (IdEstudiante= '1I8YIUY' and Hash='39765e247f4cce08ffe669a2dffb99410a09438c')
+[29-Nov-2017 23:41:45 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:41:45 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:41:45 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:41:45 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:41:45 UTC] select nomPila,ApPater,ApMater from Empleado where
+(nEmp='A000000000' and Hash='52db9057163f2b831a5452d895239a249597d1cc' and tipo='G')
+[29-Nov-2017 23:41:45 UTC] PHP Notice:  Undefined index: tipo in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 41
+[29-Nov-2017 23:41:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:41:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:41:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:41:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:42:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:42:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:42:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:42:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:42:41 UTC] select nomPila,ApPater,ApMater,tipo from Empleado where (nEmp='0000000000' and Hash='f1e991ccb62513e70689767a7313a9e9ba9fe6d3' and (tipo='P' or tipo='A'))
+[29-Nov-2017 23:42:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:42:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:42:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:42:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:42:43 UTC] select nomPila,ApPater,ApMater from Empleado where
+(nEmp='0000000000' and Hash='f1e991ccb62513e70689767a7313a9e9ba9fe6d3' and tipo='G')
+[29-Nov-2017 23:42:43 UTC] PHP Notice:  Undefined index: tipo in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 41
+[29-Nov-2017 23:44:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:44:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:44:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:44:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:48:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:48:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:48:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:48:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
+[29-Nov-2017 23:48:56 UTC] select nomPila,ApPater,ApMater from Empleado where
+(nEmp='0000000000' and Hash='f1e991ccb62513e70689767a7313a9e9ba9fe6d3' and tipo='G')
+[29-Nov-2017 23:48:56 UTC] PHP Notice:  Undefined index: tipo in /home/amrth19652010/modules/C/view/processlogin/widget-default.php on line 41
+[29-Nov-2017 23:49:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; App has a deprecated constructor in /home/amrth19652010/controller/App.php on line 6
+[29-Nov-2017 23:49:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/amrth19652010/controller/Database.php on line 2
+[29-Nov-2017 23:49:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataS has a deprecated constructor in /home/amrth19652010/controller/DataS.php on line 2
+[29-Nov-2017 23:49:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DataE has a deprecated constructor in /home/amrth19652010/controller/DataE.php on line 2
