@@ -12,7 +12,7 @@ Cambios que se hagan al programa, favor de comentarlos. Deben subir un archivo [
 
 Hay que sacar 10 muchachos.
 
-## Instación
+## Instalación
 
 Para hacer el branching del proyecto solo den click al desplegable que dice "Branch" usen la barra de buscar para escribir un nombre de su nuevo branch y díganle que sí quieren crearlo.
 
