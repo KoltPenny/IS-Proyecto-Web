@@ -1,8 +1,8 @@
-# Proyecto IS
+# Proyecto
 
 ## Sinopsis
 
-Este es el repositorio del proyecto web para la materia de Ingeniería de Software.
+Este es el repositorio del proyecto web para la materia de Distributed Database.
 
 ## Push y comentarios
 
@@ -25,7 +25,7 @@ Un branch es una "derivación" del proyecto actual. Así pueden añadir sus camb
 
 Solo clonen el git con: `git clone -b nombre_de_tu_version [URL de tu Branch]` y listo.
 
-Para montar el servidor PHP solo corran PHP en el directorio donde se encuentra el repositorio clonado. Para linux y mac solo basta con ejecutar el siguiente comando dentro del directorio: `php -S 0.0.0.0:9999`.
+Para montar el servidor PHP solo corran PHP en el directorio donde se encuentra el repositorio clonado. Para linux y mac solo basta con ejecutar el siguiente comando dentro del directorio: `php -S 0.0.0.0:9999`. Para Windows, pues investíguenle, pero de preferencia utilicen linux.
 
 ## Licencia
 
