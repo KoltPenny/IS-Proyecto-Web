@@ -4,10 +4,10 @@ class Database {
 		public static $con;
 		
 		function __construct(){
-				$this->user="root";
-				$this->pass="rootpass";
+				$this->user="m";
+				$this->pass="soyespia";
 				$this->host="localhost";
-				$this->database="saes";
+				$this->database="agencias";
 		}
 
 		function connect(){

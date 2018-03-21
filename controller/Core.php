@@ -5,11 +5,11 @@ class Core {
 		public static function loadModule($module){
 				if(!isset($_GET['module'])){
 						Module::setModule($module);
-						include "../../modules/".$module."/init.php";
+						include "../modules/".$module."/init.php";
 				}else{
 						Module::setModule($_GET['module']);
 						if(Module::isValid()){
-								include "../../modules/".$_GET['module']."/init.php";
+								include "../modules/".$_GET['module']."/init.php";
 						}else {
 								Module::Error();
 						}

@@ -1,5 +1,5 @@
 <?php
-if(!Session::issetUID() || (Session::getUT()!="profesor")) {
+if(!Session::issetUID() || (Session::getUT()!="logistica")) {
 		Session::unsetUID();
 		Session::unsetUNM();
 		Session::unsetUT();

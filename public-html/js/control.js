@@ -38,6 +38,7 @@ function cleanInput() {
 	if(arguments[0]=='email') regex = new RegExp('^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9]+)\\.([a-zA-Z]{2,10})$');
 	else if(arguments[0]=='name') regex = new RegExp('^[a-zA-Z0-9\\u00C0-\\u024F\\s]+$');
 	else if(arguments[0]=='studentid') regex  = new RegExp('^([a-zA-Z0-9]{2})([0-9]{8}$)');
+	else if(arguments[0]=='agent') regex  = new RegExp('^[a-zA-Z0-9]{1,10}');
 	else if(arguments[0]=='empid') regex  = new RegExp('^([a-zA-Z0-9]{2})([0-9]{8}$)');
 	else if(arguments[0]=='login') regex  = new RegExp('^[a-zA-Z0-9\\.]+$');
 	else if(arguments[0]=='acad') regex  = new RegExp('^([A-Z]{1})([0-9]{3})$');
@@ -50,12 +51,12 @@ function cleanInput() {
 
 }
 
-function loginPost(usr,pwd,selected) {
+function loginPost(usr,pwd,selected,selectag) {
 	
   xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      if(this.responseText=="failed")	processError("La contraseña, el identificador y/o el tipo es incorrecto.");
+      if(this.responseText=="failed")	processError("La contraseña, el identificador, agencia y/o el tipo es incorrecto.");
 			//alert(this.responseText);
 			else  window.location.reload();
 			
@@ -63,30 +64,33 @@ function loginPost(usr,pwd,selected) {
 	};
 	xhttp.open("POST", "control.php?view=processlogin",true);
 	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-	xhttp.send("usr_id=".concat(usr.toUpperCase(),"&password=",pwd,"&type=",selected));
+	xhttp.send("usr_id=".concat(usr,"&password=",pwd,"&type=",selected,"&agen=",selectag));
 }
 
 function processPost() {
 	usrel = document.getElementById("name");
 	pwdel = document.getElementById("pwd");
 	selectedel = document.getElementById("type_select");
+	selectagen = document.getElementById("agency-select");
 	
 	usr = usrel.value;
 	pwd = pwdel.value;
 	selected = selectedel.value;
+	selectag = selectagen.value;
 	
-	if(usr=="" || pwd=="" || selected =="") {
+	if(usr=="" || pwd=="" || selected =="" || selectag=="") {
 		
 		processError("Llena los datos faltantes.");
 		if(usr=="") selectIncorrect(usrel);
 		if(pwd=="") selectIncorrect(pwdel);
 		if(selected=="") selectIncorrect(selectedel);
+		if(selectag=="") selectIncorrect(selectagen);
 		
 	}
 	else if (usr!=="" && pwd!=="" && selected!=="") {
 		
 		if(!cleanInput('login',usr,pwd)){ processError("Los campos sólo puede contener letras o números."); return; }
-		loginPost(usr,pwd,selected);
+		loginPost(usr,pwd,selected,selectag);
 		
 	}
 }
@@ -98,12 +102,13 @@ function processPost() {
 function selectedElement(el) {
 	//selector = el.parentElement.querySelector('#content-selector');
 	if (el.selectedIndex == 1) {
+		//el.parentElement.querySelector('#content-block').children[2].style.display="none";
 		el.parentElement.querySelector('#content-block').children[1].style.display="none";
 		el.parentElement.querySelector('#content-block').children[0].style.display="inline";
 	}
 	else if (el.selectedIndex == 2) {
-		el.parentElement.querySelector('#content-block').children[0].style.display="none";
 		el.parentElement.querySelector('#content-block').children[1].style.display="inline";
+		el.parentElement.querySelector('#content-block').children[0].style.display="none";
 	}
 }
 
@@ -121,32 +126,19 @@ function changeView(index) {
 	}
 }
 
-function postUser(user_type) {
-
-	if(user_type=="S")
+function postUser() {
 		var user={
 			id:[document.getElementById('userid'),false],
-			nPila:[document.getElementById('nPila'),false],
-			aPater:[document.getElementById('aPater'),false],
-			aMater:[document.getElementById('aMater'),false],
+			nPila:[document.getElementById('nomClave'),false],
+			pass:[document.getElementById('userpass'),true],
 			type:[document.getElementById('type').options[document.getElementById('type').selectedIndex],true],
-			pass:[document.getElementById('pass'),false],
-			email:[document.getElementById('email'),false]};
-	if (user_type=="E")
-		var user={
-			id:[document.getElementById('euserid'),false],
-			nPila:[document.getElementById('enPila'),false],
-			aPater:[document.getElementById('eaPater'),false],
-			aMater:[document.getElementById('eaMater'),false],
-			type:[document.getElementById('etype').options[document.getElementById('etype').selectedIndex],true],
-			pass:[document.getElementById('epass'),false],
-			email:[document.getElementById('eemail'),false]};
+			selA:[document.getElementById('selAg').options[document.getElementById('selAg').selectedIndex],true]};
 	
-	if(user_type=="S") user.id[1] = cleanInput('studentid',user.id[0].value);	else user.id[1] = cleanInput('empid',user.id[0].value);
+	user.id[1] = cleanInput('agent',user.id[0].value);
 
 	bool = (function() {
 		B="i";for(x in user) {
-			//console.log(user[x][0].value);
+
 			B=B&&user[x][0].value;
 			if(user[x][0].value=="") {
 				selectIncorrect(user[x][0]);
@@ -158,17 +150,12 @@ function postUser(user_type) {
 								 }
 
 	user.nPila[1] = cleanInput('name',user.nPila[0].value);
-	user.aPater[1] = cleanInput('name',user.aPater[0].value);
-	user.aMater[1] = cleanInput('name',user.aMater[0].value);
 	user.pass[1] = cleanInput('login',user.pass[0].value);
-	user.email[1] = cleanInput('email',user.email[0].value);
 	
 	bool = (function(){b=true; for(x in user) { if(user[x][1]==false) { b=false;selectIncorrect(user[x][0]); }}return b;})();
 
 	if(bool==false){
 		processError("Los datos en rojo no son válidos.");
-		document.getElementById('reference').parentNode.parentNode.scrollTop=0;
-		console.log(document.getElementById('reference').parentNode.parentNode);
 		return;
 	}
 	
@@ -184,10 +171,14 @@ function postUser(user_type) {
 			else if (response==1062) processError("El usuario ya existe.");
 		}
 	}
-	if(user_type=="S") xhttp.open("POST", "control.php?view=addstudent", true);
-	else xhttp.open("POST", "control.php?view=addempleado", true);
+	console.log(user.pass[0].value);
+	xhttp.open("POST", "control.php?view=addagente", true);
 	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-	xhttp.send("id="+user.id[0].value+"&nPila="+user.nPila[0].value+"&aPater="+user.aPater[0].value+"&aMater="+user.aMater[0].value+"&type="+user.type[0].value+"&pass="+user.pass[0].value+"&email="+user.email[0].value);
+	xhttp.send("agen="+user.selA[0].text+
+						 "&id="+user.id[0].value+
+						 "&name="+user.nPila[0].value+
+						 "&pass="+user.pass[0].value+
+						 "&type="+user.type[0].value);
 }
 
 function postMateria() {
@@ -272,8 +263,9 @@ function populateContainerGET(getter,container,container_text) {
 	var xhttp = new XMLHttpRequest();
 	
 	xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {			if(this.responseText=="error") { processError("Hubo un error"); return;}
-			var text = "<option value='' disabled selected>"+container_text+"</option>"
+    if (this.readyState == 4 && this.status == 200) {
+			if(this.responseText=="error") { processError("Hubo un error"); return;}
+			var text = "<option value='' disabled selected>"+container_text+"</option>";
 			document.getElementById(container).innerHTML = text+this.responseText;
 			console.log(this.responseText);
 		}
@@ -340,17 +332,24 @@ function populateContainerEstudiante(getter,container) {
 	xhttp.send("id="+element);
 }
 
-function populateContainerEmpleado(getter,container) {
+function populateContainerAgente(getter,select,container) {
 	
 	var xhttp = new XMLHttpRequest();
-	var element = document.getElementById(getter).value;
-	if(element==""){ processError("El campo está vacío"); return;}
+	var idAgente = document.getElementById(getter).value;
+	var agencia='';
+	if(select!='') {
+		agencia = document.getElementById(select);
+		agencia = agencia.options[agencia.selectedIndex].text;
+	}
+	
+	if(idAgente==""){processError("El campo está vacío."); return;}
+	if(agencia=="Agencias"){ processError("No has seleccionado ninguna agencia."); return;}
 	
 	xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
 
 			if(this.responseText=="failed") {
-				processError("Falló la carga del empleado.");
+				processError("Falló la carga del agente.");
 				return;
 			}
 			else{
@@ -365,17 +364,21 @@ function populateContainerEmpleado(getter,container) {
 				for(i=0;i<json.row.length;i++) {
 					var row = table.insertRow(-1);
 					for(j=0;j<json.row[i].length;j++) {
-
-						if(json.row[i][j]=="A") row.insertCell(j).innerHTML = "Docente (académico)";
-						else if(json.row[i][j]=="P") row.insertCell(j).innerHTML = "Docente (profesor)";
-						else if(json.row[i][j]=="G") row.insertCell(j).innerHTML = "Gestión Escolar";
+						
+						if(json.row[i][j]=="2") row.insertCell(j).innerHTML = "Agente Administrativo";
+						else if(json.row[i][j]=="1") row.insertCell(j).innerHTML = "Agente de logística";
+						else if(json.row[i][j]=="0") row.insertCell(j).innerHTML = "Agente de campo";
 						else row.insertCell(j).innerHTML = json.row[i][j];
 						
-					}}}}}
+					}
+				}
+			}
+		}
+	}
 	
-	xhttp.open("POST","control.php?view=fetchempleado", true);
+	xhttp.open("POST","control.php?view=fetchagente", true);
 	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-	xhttp.send("id=".concat(element));
+	xhttp.send("id="+idAgente+"&agencia="+agencia);
 }
 
 function deleteMateria() {
@@ -432,12 +435,13 @@ function deleteGrupo() {
 	}
 }
 
-function deleteUser(type){
+function deleteUser(){
 	
-	table = document.getElementById('tablinf');
+	table = document.getElementById('tablinfo');
 	if(table.rows.length>1)	{
 		
-		var element = table.rows[1].cells[0].innerHTML;
+		var agen = table.rows[1].cells[0].innerHTML;
+		var id = table.rows[1].cells[1].innerHTML;
 
 		var xhttp = new XMLHttpRequest();
 		
@@ -450,70 +454,33 @@ function deleteUser(type){
 				}
 				else if(this.responseText=="failed") processError("Error al eliminar usuario.");
 				else if(this.responseText=="denied") processError("No se puede eliminar al usuario propio.");
-				
 			}
 		}
-		if(type==0)xhttp.open("POST","control.php?view=deletestudent", true);
-		else if (type==1)xhttp.open("POST","control.php?view=deleteempleado", true);
+		xhttp.open("POST","control.php?view=deleteagente", true);
 		xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-		xhttp.send("id=".concat(element));
+		xhttp.send("agen="+agen+"&id="+id);
 	}
-	else { processError("No hay un alumno seleccionado."); }
+	else { processError("No hay un agente seleccionado."); }
 	
 }
 function editUser(usr,container) {
 
 	var table = document.getElementById(container);
-	var select = document.getElementById('edit_status');
 	var editwindow = document.getElementById('edit-user');
 	var usr_t = null;
 
-	for (var i = select.options.length - 1 ; i >= 0 ; i--)
-    select.remove(i);
-	
 	if(table.rows.length==1){
-		processError("No hay alumnos seleccionados");
+		processError("No hay ningún agente seleccionado.");
 		return;
 	}
-
-	if(usr=="s") {
-		
-		activ=document.createElement("option");
-		inact=document.createElement("option");
-
-		activ.appendChild(document.createTextNode("Activo"));
-		inact.appendChild(document.createTextNode("Inactivo"));
-		
-		usr_t = [activ,inact];
-		
-	}
-	else if(usr=="e") {
-
-		a=document.createElement("option");
-		g=document.createElement("option");
-		p=document.createElement("option");
-		
-		a.appendChild(document.createTextNode("A"));
-		g.appendChild(document.createTextNode("G"));
-		p.appendChild(document.createTextNode("P"));
-		
-		usr_t = [a,g,p];
-	}
-
 	for(opt in usr_t) {	select.appendChild(usr_t[opt]); }
 
 	cells = table.rows[1].cells;
 
 	editwindow.style.display="inline";
-	document.getElementById('edit_id').innerHTML=cells[0].innerHTML;
-	document.getElementById('edit_nPila').setAttribute("value",cells[1].innerHTML);
-	document.getElementById('edit_apPater').setAttribute("value",cells[2].innerHTML);
-	document.getElementById('edit_apMater').setAttribute("value",cells[3].innerHTML);
-	document.getElementById('edit_correo').setAttribute("value",cells[5].innerHTML);
-	if(usr=="s")
-		document.getElementById('editbtn').setAttribute("onclick","updateUser('s');populateContainerEstudiante('st_search','tablinf')");
-	if(usr=="e")
-		document.getElementById('editbtn').setAttribute("onclick","updateUser('e');populateContainerEmpleado('st_search','tablinf')");
+	document.getElementById('edit_id').innerHTML=cells[1].innerHTML;
+	document.getElementById('edit_name').setAttribute("value",cells[2].innerHTML);
+	document.getElementById('editbtn').setAttribute("onclick","updateUser();");
 }
 
 function editMateria(container) {
@@ -561,14 +528,13 @@ function editMateria(container) {
 function updateUser(usr) {
 
 	id=document.getElementById('edit_id').innerHTML;
+	ty=document.getElementById('edit_type').options[document.getElementById('edit_type').selectedIndex];
+	ag=document.getElementById('tablinfo').rows[1].cells[0].innerHTML;
+
+	if(ty.value=="") { selectIncorrect(ty); processError(""); }
 
 	var xhttp = new XMLHttpRequest();
-	var user={
-		np:document.getElementById('edit_nPila'),
-		ap:document.getElementById('edit_apPater'),
-		am:document.getElementById('edit_apMater'),
-		em:document.getElementById('edit_correo'),
-		st:document.getElementById('edit_status').options[document.getElementById('edit_status').selectedIndex]};
+	var user={np:document.getElementById('edit_name')};
 	
 	if((function(){	b="i";	for(x in user) b=b&&user[x].value; return b; })() == "") {
 		processError("Rellena los datos faltantes.");
@@ -579,31 +545,23 @@ function updateUser(usr) {
 	var bool = true;
 
 	if(!cleanInput('name',user.np.value)){selectIncorrect(user.np);bool=false}
-	if(!cleanInput('name',user.ap.value)){selectIncorrect(user.ap);bool=false}
-	if(!cleanInput('name',user.am.value)){selectIncorrect(user.am);bool=false}
-	if(!cleanInput('email',user.em.value)){selectIncorrect(user.em);bool=false}
 
 	if(!bool) { processError("Los datos en rojo no son válidos.");return; }
 
-	
 
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
-			if(this.responseText=="success") { processSuccess("Usuario actualizado."); }
+			if(this.responseText=="success") {
+				processSuccess("Usuario actualizado.");
+				populateContainerAgente('st_search','agency_select','tablinfo');
+			}
 			else if(this.responseText=="failed") { processError("Hubo un error al actualizar al usuario."); }
 		}
 	}
 	
-	if(usr=="s")xhttp.open("POST","control.php?view=editstudent", true);
-	else if(usr=="e")xhttp.open("POST","control.php?view=editempleado", true);
+	xhttp.open("POST","control.php?view=editagente", true);
 	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-	xhttp.send("id="+id+
-						 "&nPila="+user.np.value+
-						 "&aPater="+user.ap.value+
-						 "&aMater="+user.am.value+
-						 "&email="+user.em.value+
-						 "&type="+user.st.value);
-	
+	xhttp.send("agen="+ag+"&id="+id+"&name="+user.np.value+"&type="+ty.value);
 }
 
 function updateMateria() {
@@ -842,5 +800,5 @@ function postGrupo() {
 /*OH DAE YOUNG -- END -- */
 
 document.addEventListener("DOMContentLoaded", function() {
-	
+		
 });

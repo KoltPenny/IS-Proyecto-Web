@@ -86,3 +86,349 @@
 [30-Nov-2017 14:02:36 UTC] test
 [30-Nov-2017 14:02:37 UTC] test
 [30-Nov-2017 14:04:26 UTC] test
+[24-Feb-2018 23:36:18 UTC] PHP Warning:  include(../../autoload.php): failed to open stream: No such file or directory in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 5
+[24-Feb-2018 23:36:20 UTC] PHP Warning:  include(): Failed opening '../../autoload.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 5
+[24-Feb-2018 23:36:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Core' not found in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 7
+[24-Feb-2018 23:36:22 UTC] PHP Warning:  include(../../autoload.php): failed to open stream: No such file or directory in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 5
+[24-Feb-2018 23:36:22 UTC] PHP Warning:  include(): Failed opening '../../autoload.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 5
+[24-Feb-2018 23:36:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Core' not found in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 7
+[24-Feb-2018 23:36:23 UTC] PHP Warning:  include(../../autoload.php): failed to open stream: No such file or directory in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 5
+[24-Feb-2018 23:36:23 UTC] PHP Warning:  include(): Failed opening '../../autoload.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 5
+[24-Feb-2018 23:36:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Core' not found in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 7
+[24-Feb-2018 23:36:23 UTC] PHP Warning:  include(../../autoload.php): failed to open stream: No such file or directory in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 5
+[24-Feb-2018 23:36:23 UTC] PHP Warning:  include(): Failed opening '../../autoload.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 5
+[24-Feb-2018 23:36:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Core' not found in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 7
+[24-Feb-2018 23:36:24 UTC] PHP Warning:  include(../../autoload.php): failed to open stream: No such file or directory in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 5
+[24-Feb-2018 23:36:24 UTC] PHP Warning:  include(): Failed opening '../../autoload.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 5
+[24-Feb-2018 23:36:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Core' not found in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 7
+[24-Feb-2018 23:37:02 UTC] PHP Warning:  include(../../autoload.php): failed to open stream: No such file or directory in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 5
+[24-Feb-2018 23:37:02 UTC] PHP Warning:  include(): Failed opening '../../autoload.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 5
+[24-Feb-2018 23:37:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Core' not found in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 7
+[24-Feb-2018 23:37:16 UTC] PHP Warning:  include(../../autoload.php): failed to open stream: No such file or directory in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 5
+[24-Feb-2018 23:37:16 UTC] PHP Warning:  include(): Failed opening '../../autoload.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 5
+[24-Feb-2018 23:37:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Core' not found in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/public-html/index.php on line 7
+[24-Feb-2018 23:37:45 UTC] PHP Warning:  include(../../modules/IS/init.php): failed to open stream: No such file or directory in /home/kolt/Git/IS-Proyecto-Web/controller/Core.php on line 8
+[24-Feb-2018 23:37:45 UTC] PHP Warning:  include(): Failed opening '../../modules/IS/init.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/kolt/Git/IS-Proyecto-Web/controller/Core.php on line 8
+[24-Feb-2018 23:38:12 UTC] PHP Warning:  include(../../modules/IS/init.php): failed to open stream: No such file or directory in /home/kolt/Git/IS-Proyecto-Web/controller/Core.php on line 8
+[24-Feb-2018 23:38:12 UTC] PHP Warning:  include(): Failed opening '../../modules/IS/init.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/kolt/Git/IS-Proyecto-Web/controller/Core.php on line 8
+[24-Feb-2018 23:38:12 UTC] PHP Warning:  include(../../modules/IS/init.php): failed to open stream: No such file or directory in /home/kolt/Git/IS-Proyecto-Web/controller/Core.php on line 8
+[24-Feb-2018 23:38:12 UTC] PHP Warning:  include(): Failed opening '../../modules/IS/init.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/kolt/Git/IS-Proyecto-Web/controller/Core.php on line 8
+[24-Feb-2018 23:38:13 UTC] PHP Warning:  include(../../modules/IS/init.php): failed to open stream: No such file or directory in /home/kolt/Git/IS-Proyecto-Web/controller/Core.php on line 8
+[24-Feb-2018 23:38:13 UTC] PHP Warning:  include(): Failed opening '../../modules/IS/init.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/kolt/Git/IS-Proyecto-Web/controller/Core.php on line 8
+[24-Feb-2018 23:38:13 UTC] PHP Warning:  include(../../modules/IS/init.php): failed to open stream: No such file or directory in /home/kolt/Git/IS-Proyecto-Web/controller/Core.php on line 8
+[24-Feb-2018 23:38:13 UTC] PHP Warning:  include(): Failed opening '../../modules/IS/init.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/kolt/Git/IS-Proyecto-Web/controller/Core.php on line 8
+[24-Feb-2018 23:38:39 UTC] PHP Warning:  include(../../modules/IS/init.php): failed to open stream: No such file or directory in /home/kolt/Git/IS-Proyecto-Web/controller/Core.php on line 8
+[24-Feb-2018 23:38:39 UTC] PHP Warning:  include(): Failed opening '../../modules/IS/init.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/kolt/Git/IS-Proyecto-Web/controller/Core.php on line 8
+[24-Feb-2018 23:45:24 UTC] PHP Warning:  include(../../modules/IS/view/layout.php): failed to open stream: No such file or directory in /home/kolt/Git/IS-Proyecto-Web/controller/Module.php on line 15
+[24-Feb-2018 23:45:24 UTC] PHP Warning:  include(): Failed opening '../../modules/IS/view/layout.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/kolt/Git/IS-Proyecto-Web/controller/Module.php on line 15
+[24-Feb-2018 23:45:34 UTC] PHP Warning:  include(../../modules/IS/view/layout.php): failed to open stream: No such file or directory in /home/kolt/Git/IS-Proyecto-Web/controller/Module.php on line 15
+[24-Feb-2018 23:45:34 UTC] PHP Warning:  include(): Failed opening '../../modules/IS/view/layout.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/kolt/Git/IS-Proyecto-Web/controller/Module.php on line 15
+[24-Feb-2018 23:46:01 UTC] PHP Warning:  include(../../modules/IS/view/login/widget-default.php): failed to open stream: No such file or directory in /home/kolt/Git/IS-Proyecto-Web/controller/View.php on line 12
+[24-Feb-2018 23:46:01 UTC] PHP Warning:  include(): Failed opening '../../modules/IS/view/login/widget-default.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/kolt/Git/IS-Proyecto-Web/controller/View.php on line 12
+[24-Feb-2018 23:46:02 UTC] PHP Warning:  include(../../modules/IS/view/login/widget-default.php): failed to open stream: No such file or directory in /home/kolt/Git/IS-Proyecto-Web/controller/View.php on line 12
+[24-Feb-2018 23:46:02 UTC] PHP Warning:  include(): Failed opening '../../modules/IS/view/login/widget-default.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/kolt/Git/IS-Proyecto-Web/controller/View.php on line 12
+[24-Feb-2018 23:46:02 UTC] PHP Warning:  include(../../modules/IS/view/login/widget-default.php): failed to open stream: No such file or directory in /home/kolt/Git/IS-Proyecto-Web/controller/View.php on line 12
+[24-Feb-2018 23:46:02 UTC] PHP Warning:  include(): Failed opening '../../modules/IS/view/login/widget-default.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/kolt/Git/IS-Proyecto-Web/controller/View.php on line 12
+[24-Feb-2018 23:46:03 UTC] PHP Warning:  include(../../modules/IS/view/login/widget-default.php): failed to open stream: No such file or directory in /home/kolt/Git/IS-Proyecto-Web/controller/View.php on line 12
+[24-Feb-2018 23:46:03 UTC] PHP Warning:  include(): Failed opening '../../modules/IS/view/login/widget-default.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/kolt/Git/IS-Proyecto-Web/controller/View.php on line 12
+[06-Mar-2018 05:30:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(15): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:30:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:30:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:30:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:30:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:30:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:30:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:30:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:30:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:30:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:30:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:30:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:31:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:31:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:31:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:31:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:31:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:32:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:32:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:32:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:32:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:32:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[06-Mar-2018 05:32:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[08-Mar-2018 19:45:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(15): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15
+[08-Mar-2018 19:45:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php:15
+Stack trace:
+#0 /home/kolt/Git/IS-Proyecto-Web/controller/View.php(12): include()
+#1 /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/layout.php(14): View::load('campo')
+#2 /home/kolt/Git/IS-Proyecto-Web/controller/Module.php(15): include('/home/kolt/Git/...')
+#3 /home/kolt/Git/IS-Proyecto-Web/modules/IS/init.php(10): Module::loadLayout()
+#4 /home/kolt/Git/IS-Proyecto-Web/controller/Core.php(8): include('/home/kolt/Git/...')
+#5 /home/kolt/Git/IS-Proyecto-Web/public-html/index.php(7): Core::loadModule('IS')
+#6 {main}
+  thrown in /home/kolt/Git/IS-Proyecto-Web/modules/IS/view/campo/widget-default.php on line 15

@@ -245,5 +245,5 @@ function registerStudent() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-	populateContainerEstudiante('thingy','tablinf');
+	//populateContainerEstudiante('thingy','tablinf');
 });

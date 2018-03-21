@@ -48,6 +48,7 @@ html,body {width: 100%;	height: 100%;}
 		.login-input{padding:8px;display:block;border:none;}
 		.edit-input{padding:8px;display:block;border:none;}
 		.tablecell{background:#cccccc;}
+		.filler{background:#66626a}
 
 		#content-block{overflow:auto; background:#999;color:white;}
 		#searchbar{background:#333333;border:none;color:white;font-size:100%;padding-left:20px;}
@@ -64,7 +65,8 @@ html,body {width: 100%;	height: 100%;}
 		#studentable tr{border-bottom:2px solid #555;}
 		#studentable td{padding-top:7px;padding-bottom:7px; min-width:10px; max-width:20px;border-left:2px solid #555;}
 		#tablinf{text-align:center;}
-		#infoblock {background:#1d6c6b;text-align:center;}
+		#tablinfo{text-align:center;}
+		#infoblock {background:#333388;text-align:center;}
 		#infoblock p {position:relative;top:calc(50% - 1ex);font-size:1.2em;color:white;user-select:none;}
 
 		/*STUDENT(clases)*/
@@ -96,15 +98,16 @@ html,body {width: 100%;	height: 100%;}
 		
 		/*LOGIN*/
 		
-		#main-header{position:relative; background:#f9f9f9; padding:10px;z-index:10;}
+		#main-header{position:relative; background:#222; padding:10px;z-index:10;}
+		#main-header p {font-family:STiR; color:#ccc; font-weight:bold; text-align:center; font-size:6ex; line-height:350%;}
 		#userinfo {position:relative; box-shadow: 2px 0px 3px #555555;}
-		#saes-container{background: #e6e6e6;}
+		#saes-container{background: #cccccc;}
 		#saes-container img{position:relative;margin:0;padding: 9vh 0px;}
-		#ingresar{font-family:STiR;color:white;background:#6c1d45;border:none;}
+		#ingresar{font-family:STiR;color:white;background:#4444aa;border:none;}
 		#captcha{background: #cccccc; text-align:center;}
 		#forgot{text-align:center;line-height:200%;color:#6c1d45;}
 		#forgot:hover{text-align:center;line-height:200%;color:#ffffff;}
-		#rest{background:#66626a}
+		#rest{background:#222;}
 		#footer{background:#333333;}
 		#confirm{position: fixed;top:40%;left:25%;width:50%;height:20%;
 						 z-index:10;padding:15px;color:#dddddd;background:#999999;}
@@ -113,7 +116,7 @@ html,body {width: 100%;	height: 100%;}
 							z-index:10;padding:15px;color:#dddddd;background:rgba(170,170,170,0.7);display:none;}
 		#materias p{color:white;font-weight:bold;font-size:1.6em; text-align:center;}
 		#notification{position: fixed;bottom:0;height:10%;width:100%;z-index:10;padding:15px;color:white;}
-		#notification p{font-weight:bold;font-size:1.2em; text-align:center;}
+		#notification p{font-weight:bold;font-size:1.2em; text-align:center; line-height:200%;}
 		#verification{position:fixed;bottom:40%;left:25%;;height:30%;width:50%;
 									z-index:10;padding:15px;color:white;background:rgba(60,60,60,0.5);}
 		#verification p{font-weight:bold;font-size:1.2em; text-align:center;}

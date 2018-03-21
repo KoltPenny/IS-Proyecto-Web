@@ -6,8 +6,8 @@ if(Session::getUT()=="admin" && Session::getUID()!="" && isset($_POST['id'])){
 				$_POST['agen'],
 				$_POST['id'],
 				$_POST['name'],
-				"",
+				$_POST['pass'],
 				$_POST['type']);
-		$user->update();
+		$user->add();
 }
 ?>

@@ -1,5 +1,5 @@
 <?php
-if(!Session::issetUID() || Session::getUT()!="student") {
+if(!Session::issetUID() || Session::getUT()!="campo") {
 		Session::unsetUID();
 		Session::unsetUNM();
 		Session::unsetUT();
@@ -9,7 +9,7 @@ if(!Session::issetUID() || Session::getUT()!="student") {
 
 $base = new Database();	$con = $base->connect();
 
-$sql = "select Inscrito from Estudiante where idEstudiante='".Session::getUID()."'";
+$sql = "select nombreClave from Agente where idAgente='".Session::getUID()."'";
 $query = $con->query($sql);
 
 $row = $query->fetch_array();
@@ -31,10 +31,11 @@ if(!isset($_SESSION['materias_str'])) {	$_SESSION['materias_str'] = array(); }
 		</p>
     <br/>
 		<span id="choices">
+			<!--
 			<p id="usr_data" onclick="changeView(0);populateContainerEstudiante('thingy','tablinf');"
 				 class="useroptions">Datos generales</p>
 			<p id="usr_insc" onclick="changeView(1);fillTable('GET')" class="useroptions">Reinscripción</p>
-			<p id="usr_hour" onclick="changeView(2);fillHours()" class="useroptions">Horario Actual</p>
+			<p id="usr_hour" onclick="changeView(2);fillHours()" class="useroptions">Horario Actual</p-->
 		</span>
 		<br/>
 		<!--p id="" class="useroptions" onclick="">Configuración</p-->

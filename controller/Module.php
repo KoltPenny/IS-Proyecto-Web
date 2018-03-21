@@ -12,13 +12,13 @@ class Module {
 		}
 
 		public static function loadLayout(){
-				include "../../modules/".Module::$module."/view/layout.php";
+				include "../modules/".Module::$module."/view/layout.php";
 		}
 		
 		// validacion del modulo
 		public static function isValid(){
 				$valid = false;
-				$folder = "../../modules/".Module::$module;
+				$folder = "../modules/".Module::$module;
 				
 				if(is_dir($folder)){
 						$valid=true;
