@@ -1,0 +1,161 @@
+ESTRUCTURA DEL PROYECTO DE BASES DE DATOS --[UNIFIED SPY REPOSITORY]--
+
+Notas (Erick):
+
+- El nombre es definitivamente tentativo y no el que se va a quedar.
+- Todo el proyecto está en PHP, HTML, Javascript y CSS. No son lenguajes difíciles de aprender.
+- PHP y Javascript se parecen a C, así que no debe ser mucho problema.
+- Posteriormente se añadirán más notas, cuando sean necesario.
+- Si necesitan agregar notas por favor incluyan sus nombres de la misma forma en que hice yo.
+
+DESCRIPCIÓN GENERAL:
+
+El proyecto está diseñado bajo el patrón de Modelo-Vista-Controlador (más o menos).
+A pesar de ser el modelo vista controlador, muchas funciones que tienen que ver con el manejo de la base
+y de el despliegue de información, se hace de a partir de una vista, por cuestiones de tiempo y de complejidad
+es un poco complicado cambiar esa estructura.
+A continuación se va a poner la estructura del árbol.
+
+ÁRBOL JERÁRQUICO:
+
+Proyecto
+├── autoload.php
+├── controller
+│   ├── App.php
+│   ├── Core.php
+│   ├── Database.php
+│   ├── DataE.php
+│   ├── DataS.php
+│   ├── Executor.php
+│   ├── Login.php
+│   ├── Module.php
+│   ├── Session.php
+│   └── View.php
+├── #ESTRUCTURA.txt#
+├── ESTRUCTURA.txt
+├── modules
+│   ├── C
+│   │   ├── init.php
+│   │   ├── model
+│   │   │   └── Agente.php
+│   │   └── view
+│   │       ├── addagente
+│   │       │   └── widget-default.php
+│   │       ├── agencias
+│   │       │   └── widget-default.php
+│   │       ├── deleteagente
+│   │       │   └── widget-default.php
+│   │       ├── editagente
+│   │       │   └── widget-default.php
+│   │       ├── fetchagencia
+│   │       │   └── widget-default.php
+│   │       ├── fetchagente
+│   │       │   └── widget-default.php
+│   │       ├── logout
+│   │       │   └── widget-default.php
+│   │       └── processlogin
+│   │           └── widget-default.php
+│   └── IS
+│       ├── init.php
+│       └── view
+│           ├── admin
+│           │   └── widget-default.php
+│           ├── campo
+│           │   └── widget-default.php
+│           ├── layout.php
+│           ├── login
+│           │   └── widget-default.php
+│           └── logistica
+│               └── widget-default.php
+├── public-html
+│   ├── control.php
+│   ├── css
+│   │   ├── fonts.css
+│   │   ├── main.css
+│   │   ├── style.css
+│   │   └── usr.css
+│   ├── favicon.ico
+│   ├── fonts
+│   │   ├── Montserrat-BlackItalic.ttf
+│   │   ├── Montserrat-Black.ttf
+│   │   ├── Montserrat-BoldItalic.ttf
+│   │   ├── Montserrat-Bold.ttf
+│   │   ├── Montserrat-Italic.ttf
+│   │   ├── Montserrat-LightItalic.ttf
+│   │   ├── Montserrat-Light.ttf
+│   │   ├── Montserrat-MediumItalic.ttf
+│   │   ├── Montserrat-Medium.ttf
+│   │   ├── Montserrat-Regular.ttf
+│   │   ├── Montserrat-SemiBoldItalic.ttf
+│   │   ├── Montserrat-SemiBold.ttf
+│   │   ├── Montserrat-ThinItalic.ttf
+│   │   └── Montserrat-Thin.ttf
+│   ├── img
+│   │   ├── escom.svg
+│   │   ├── ipn_logo-slogan.png
+│   │   ├── ipn_logo-slogan.svg
+│   │   ├── ipn.svg
+│   │   ├── lupa.svg
+│   │   ├── recaptcha.gif
+│   │   ├── saes-logo.png
+│   │   ├── saes-logo.svg
+│   │   ├── sep_logo-gob.png
+│   │   ├── sep_logo-gob.svg
+│   │   └── squares.svg
+│   ├── imgs
+│   │   ├── burger.svg
+│   │   ├── fb.svg
+│   │   ├── glogo.svg
+│   │   ├── numbers.png
+│   │   └── robot.png
+│   ├── index.php
+│   ├── js
+│   │   ├── bu.js
+│   │   ├── control.js
+│   │   ├── debugging.js
+│   │   └── student.js
+│   ├── scripts
+│   │   ├── jquery.js
+│   │   ├── login.php
+│   │   ├── register.js
+│   │   ├── startup.php
+│   │   └── welcome.js
+│   └── Soberana
+│       ├── SoberanaSans-BlackItalic.otf
+│       ├── SoberanaSans-Black.otf
+│       ├── SoberanaSans-BoldItalic.otf
+│       ├── SoberanaSans-Bold.otf
+│       ├── SoberanaSansCondensed-BoldItalic.otf
+│       ├── SoberanaSansCondensed-Bold.otf
+│       ├── SoberanaSansCondensed-Italic.otf
+│       ├── SoberanaSansCondensed-Regular.otf
+│       ├── SoberanaSans-Italic.otf
+│       ├── SoberanaSans-LightItalic.otf
+│       ├── SoberanaSans-Light.otf
+│       ├── SoberanaSans-Regular.otf
+│       ├── SoberanaSans-UltraItalic.otf
+│       ├── SoberanaSans-Ultra.otf
+│       ├── SoberanaTexto-BoldItalic.otf
+│       ├── SoberanaTexto-Bold.otf
+│       ├── SoberanaTexto-Italic.otf
+│       ├── SoberanaTexto-Regular.otf
+│       ├── SoberanaTitular-Bold.otf
+│       └── SoberanaTitular-Regular.otf
+└── README.md
+
+DESCRICIÓN POR NIVELES (En orden de aparición):
+
+
+<Nivel 0>
+
+* autoload.php
++ Contiene los include de los archivos de controlador.
+
+* ESTRUCTURA.txt
++ Es este archivito.
+
+* README.md
++ Archivo de descripción de GIT.
+
+<Nivel 1>
+

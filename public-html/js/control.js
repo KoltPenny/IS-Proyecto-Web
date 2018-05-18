@@ -274,6 +274,32 @@ function populateContainerGET(getter,container,container_text) {
 	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	xhttp.send();
 }
+function populateContainerGETandTable(getter,container,container_text,sel,tab) {
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+			if(this.responseText=="error") { processError("Hubo un error"); return;}
+			var table = document.getElementById(tab);
+			var elements = document.getElementById(container);
+			
+			var text = "<option value='' disabled selected>"+container_text+"</option>";
+			elements.innerHTML = text+this.responseText;
+			console.log(this.responseText);
+
+			if(table.rows.length>0)	table.deleteRow(0);
+			console.log(elements.options.length);
+			var row = table.insertRow(-1);
+			for (i = 1; i <= elements.options.length-1; i++) {
+				row.insertCell(0).innerHTML = elements.options[i].value;
+				console.log(i);
+			}
+			
+		}
+	}
+	xhttp.open("GET","control.php?view="+getter+"&id="+sel.options[sel.selectedIndex].innerHTML, true);
+	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	xhttp.send();
+}
 
 function populateContainerPOST(getter,container,element) {
 	var xhttp = new XMLHttpRequest();
