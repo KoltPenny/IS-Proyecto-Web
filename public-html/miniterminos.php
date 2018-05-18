@@ -27,6 +27,8 @@
 			 background-color: #dddddd;
 	 }
 
+	 #notification{position: fixed;bottom:0;height:10%;width:100%;z-index:10;padding:15px;color:white;}
+	 #notification p{font-weight:bold;font-size:1.2em; text-align:center; line-height:200%;}
 
 	</style>
 	<body class="w3-theme-l5">
@@ -343,7 +345,7 @@
 		<footer class="w3-container w3-theme-d5">
 			<p> .</p>
 		</footer>
-
+		<div id="notification"></div>
 		<script>
 		 // Accordion
 		 function myFunction(id) {
@@ -372,29 +374,36 @@
 		 function attrFill(getter,container,container_text,sel,tab) {
 				 populateContainerGETandTable(getter,container,container_text,sel,tab);
 				 document.getElementById("tab").innerHTML = sel.options[sel.selectedIndex].value;
-				 console.log("-------------"+document.getElementById("valor").nodeType);
 		 }
-		 function validateElems() {
-				 var attrs = arguments.length;
-				 if(attrs>0) {
-						 [].forEach.call(arguments, function(args) {
-								 if(el.tagName=="SELECT");
-						 });
-				 }
-		 }
+		 
 		 function fillPredTable(tab) {
 				 var attr = document.getElementById("atributos");
 				 var op = document.getElementById("operador");
 				 var val = document.getElementById("valor");
 				 var table = document.getElementById(tab);
-				 attr = attr.options[attr.selectedIndex];
-				 op = op.options[op.selectedIndex];
+				 var boo = true;
+				 var attrs = attr.options[attr.selectedIndex];
+				 var ops = op.options[op.selectedIndex];
+				 
+				 [attr,op,val].forEach(function(elem) {
+						 if (elem.value=="") {
+								 boo = false;
+								 console.log(elem);
+								 selectIncorrect(elem);
+						 }
+				 });
+				 if (boo == false) { processError("Hay algún elemento vacío."); return;}
+
+				 
 				 var row = table.insertRow(-1);
-				 row.insertCell(0).innerHTML = attr.value + " " +op.value+ " " + val.value;
+				 if(attrs.getAttribute("name").startsWith("varchar"))
+						 row.insertCell(0).innerHTML = attrs.value + " " +op.value+ " '" + val.value+"'";
+				 if(attrs.getAttribute("name").startsWith("tiny") || attrs.getAttribute("name").startsWith("int"))
+						 row.insertCell(0).innerHTML = attrs.value + " " +op.value+ " " + val.value;
 				 row.insertCell(0).innerHTML = "P"+row.rowIndex;
 				 
 		 }
 		</script>
-
+		
 	</body>
 </html>

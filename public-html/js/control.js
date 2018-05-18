@@ -287,11 +287,9 @@ function populateContainerGETandTable(getter,container,container_text,sel,tab) {
 			console.log(this.responseText);
 
 			if(table.rows.length>0)	table.deleteRow(0);
-			console.log(elements.options.length);
 			var row = table.insertRow(-1);
 			for (i = 1; i <= elements.options.length-1; i++) {
 				row.insertCell(0).innerHTML = elements.options[i].value;
-				console.log(i);
 			}
 			
 		}
