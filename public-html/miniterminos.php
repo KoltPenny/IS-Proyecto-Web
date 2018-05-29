@@ -27,8 +27,8 @@
 			 background-color: #dddddd;
 	 }
 
-	 #notification{position: fixed;bottom:0;height:10%;width:100%;z-index:10;padding:15px;color:white;}
-	 #notification p{font-weight:bold;font-size:1.2em; text-align:center; line-height:200%;}
+	 #notification{position: fixed;bottom:0;width:100%;z-index:10;padding:15px;color:white;}
+	 #notification p{font-weight:bold;font-size:1em; text-align:center; line-height:100%;}
 
 	</style>
 	<body class="w3-theme-l5">
@@ -140,9 +140,9 @@
 						<div class="w3-row-padding" style="margin:0 -16px">
 							<select
 								id="relacion"
-								class="w3-select"
-								name="option"
-										onchange="attrFill('getattrs','atributos','Seleccionar atributo',this,'melapela')">
+										class="w3-select"
+										name="option"
+										onchange="attrFill('getattrs','atributos','Seleccionar atributo',this,'tabInicial')">
 							</select>
 							<br/><br/>
 						</div>
@@ -153,24 +153,7 @@
 						<hr class="w3-clear">
 						<div class="w3-row-padding" style="margin:0 -16px">
 
-							<table id="melapela">
-								<!--
-										 <tr>
-										 <th>Cosa</th>
-										 <th>Cosa 2</th>
-										 <th>Cosa 2</th>
-										 </tr>
-										 <tr>
-										 <td>Cosa 2</td>
-										 <td>Cosa 2</td>
-										 <td>Cosa 2</td>
-										 <tr>
-										 <tr>
-										 <td>Cosa 2</td>
-										 <td>Cosa 2</td>
-										 <td>Cosa 2</td>
-								<tr>-->
-							</table>
+							<table id="tabInicial"></table>
 
 							<br/><br/>
 						</div>
@@ -241,9 +224,8 @@
 						<hr class="w3-clear">
 						<div class="w3-row-padding" style="margin:0 -16px">
 
-							<table id="predicados">
-
-							</table>
+							<table id="predicados"></table>
+							<button class="w3-button w3-light-gray" onclick="clearTable('predicados')">Limpiar</button>
 
 							<br/><br/>
 						</div>
@@ -254,7 +236,7 @@
 						<div class="w3-col m12">
 							<div class="w3-card w3-round w3-white">
 								<h3 class=" w3-padding">
-									<button class="w3-button w3-dark-gray w3-block">Generar fragmentos minitérminos</button>
+									<button class="w3-button w3-dark-gray w3-block" onclick="sendToQuery()">Generar fragmentos minitérminos</button>
 								</h3>
 							</div>
 						</div>
@@ -266,9 +248,8 @@
 						<hr class="w3-clear">
 						<div class="w3-row-padding" style="margin:0 -16px">
 
-							<table id="fragmentos">
-
-							</table>
+							<table id="fragmentos"></table>
+							<button class="w3-button w3-light-gray" onclick="clearTable(fragmentos)">Limpiar</button>
 
 							<br/><br/>
 						</div>
@@ -345,7 +326,12 @@
 		<footer class="w3-container w3-theme-d5">
 			<p> .</p>
 		</footer>
-		<div id="notification"></div>
+		
+		<div id="notification" class="w3-container w3-pink" hidden>
+			<h5>Error:</h5>
+			<p id="msg"></p>
+		</div>
+
 		<script>
 		 // Accordion
 		 function myFunction(id) {
@@ -369,13 +355,27 @@
 						 x.className = x.className.replace(" w3-show", "");
 				 }
 		 }
+
+		 /* FUNCIONES DE USUARIO */
+
+		 //Llenar mensaje
+		 function errormsg(msg) {
+				 _error = document.getElementById("notification");
+				 _msg = document.getElementById("msg");
+				 _msg.innerHTML = msg;
+				 _error.style.display = "block";
+				 msg_timeout = setTimeout(function(){_error.style.display = "none";},2000);
+		 }
+		 //Llenado del selector de Agencia
 		 populateContainerGET("gettables","relacion","Escoge una relación");
 		 
+		 //llenado de atributos
 		 function attrFill(getter,container,container_text,sel,tab) {
 				 populateContainerGETandTable(getter,container,container_text,sel,tab);
 				 document.getElementById("tab").innerHTML = sel.options[sel.selectedIndex].value;
 		 }
-		 
+
+		 //Llenado de tabla de predicados
 		 function fillPredTable(tab) {
 				 var attr = document.getElementById("atributos");
 				 var op = document.getElementById("operador");
@@ -396,12 +396,59 @@
 
 				 
 				 var row = table.insertRow(-1);
-				 if(attrs.getAttribute("name").startsWith("varchar"))
-						 row.insertCell(0).innerHTML = attrs.value + " " +op.value+ " '" + val.value+"'";
-				 if(attrs.getAttribute("name").startsWith("tiny") || attrs.getAttribute("name").startsWith("int"))
-						 row.insertCell(0).innerHTML = attrs.value + " " +op.value+ " " + val.value;
+				 row.insertCell(0).innerHTML = val.value;
+				 row.insertCell(0).innerHTML = op.value;
+				 row.insertCell(0).innerHTML = attrs.value;
 				 row.insertCell(0).innerHTML = "P"+row.rowIndex;
+				 row.insertCell(0).innerHTML = "<input type='checkbox'/>";
 				 
+		 }
+
+		 function htmlDecode(input){
+				 var e = document.createElement('div');
+				 e.innerHTML = input;
+				 return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
+		 }
+
+		 function sendToQuery() {
+				 let tab = document.getElementById("predicados");
+				 let sel = document.getElementById("relacion");
+				 let rel = sel.options[sel.selectedIndex].value;
+				 let lst = {"name":rel,"body":[]};
+				 for(let i = 0, row; row = tab.rows[i] ; i++) {
+						 
+						 let cells = row.cells;
+						 
+						 if(cells[0].firstElementChild.checked == true) {
+								 lst.body.push({
+										 "pNum":cells[1].innerHTML,
+										 "attr":cells[2].innerHTML,
+										 "op":htmlDecode(cells[3].innerHTML),
+										 "val":cells[4].innerHTML
+								 });
+						 }
+						 console.log(lst.body);
+				 }
+
+				 let xhttp = new XMLHttpRequest();
+				 xhttp.onreadystatechange = function() {
+						 if (this.readyState == 4 && this.status == 200) {
+								 let r = this.responseText;
+								 console.log(r);
+								 if(r=="100") {
+										 console.log("Es necesario elegir exactamente dos elementos.");
+								 }
+								 else if(r=="101") {
+										 errormsg("No hay elementos en la relación.");
+								 }
+								 else {
+										 console.log(r);
+								 }
+						 }
+				 }
+				 xhttp.open("POST","control.php?view=jsonQuery", true);
+				 xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+				 xhttp.send("json="+JSON.stringify(lst))
 		 }
 		</script>
 		

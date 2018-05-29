@@ -821,6 +821,14 @@ function postGrupo() {
 	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	xhttp.send("nombreG="+nombreG);
 }
+
+function clearTable(table) {
+	var tab = document.getElementById(table);
+	//tab.deleteRow(0);
+	console.log(tab.rows);
+	while(tab.rows.length>0) {tab.deleteRow(0); }
+				 
+}
 /*OH DAE YOUNG -- END -- */
 
 document.addEventListener("DOMContentLoaded", function() {

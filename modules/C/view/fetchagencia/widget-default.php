@@ -10,10 +10,9 @@ if(Session::getUT()=="admin" && Session::getUID()!="") {
 		while($row = $query->fetch_array()){
 				$rows[]=$row;
 		}
-		if(count($rows)==0) {
-				echo "error";
-				exit;
-		}
+		error_log($row);
+		
+		if(count($rows)==0) {	echo "error";	exit; }
 		//echo '{"row":[';
 		foreach($rows as $key=>$row) {
 				//echo '["'.$row[0].'","'.$row[1].'"]';
