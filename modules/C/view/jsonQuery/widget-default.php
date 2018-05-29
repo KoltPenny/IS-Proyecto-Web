@@ -11,7 +11,8 @@ if(isset($_POST['json'])) {
 				
 				$sql = "select * from ".$json->name.
 							 " where ".$json->body[0]->attr." ".$json->body[0]->op." '".$json->body[0]->val."'".
-							 "and ".$json->body[1]->attr." ".$json->body[1]->op." '".$json->body[1]->val."';";
+							 "and ".$json->body[1]->attr." ".$json->body[1]->op." '".$json->body[1]->val."'".
+							 "order by ".$json->body[0]->attr;
 
 				$query = $con->query($sql);
 				$rows = array();
@@ -26,12 +27,8 @@ if(isset($_POST['json'])) {
 				error_log("ROWS AFTER".count($rows));
 				
 				if(count($rows)==0) {	echo "101";	exit; }
-
-				error_log(json_encode($rows));
-				/*foreach($rows as $key=>$row) {
-						error_log(count($row));
-						error_log(json_encode($row));
-				}*/
+				
+				else echo json_encode($rows);
 		}
 		
 }

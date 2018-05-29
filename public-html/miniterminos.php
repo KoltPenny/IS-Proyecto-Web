@@ -249,7 +249,7 @@
 						<div class="w3-row-padding" style="margin:0 -16px">
 
 							<table id="fragmentos"></table>
-							<button class="w3-button w3-light-gray" onclick="clearTable(fragmentos)">Limpiar</button>
+							<button class="w3-button w3-light-gray" onclick="clearTable('fragmentos')">Limpiar</button>
 
 							<br/><br/>
 						</div>
@@ -431,10 +431,10 @@
 				 }
 
 				 let xhttp = new XMLHttpRequest();
+				 tab = document.getElementById("fragmentos");
 				 xhttp.onreadystatechange = function() {
 						 if (this.readyState == 4 && this.status == 200) {
 								 let r = this.responseText;
-								 console.log(r);
 								 if(r=="100") {
 										 console.log("Es necesario elegir exactamente dos elementos.");
 								 }
@@ -442,7 +442,15 @@
 										 errormsg("No hay elementos en la relación.");
 								 }
 								 else {
-										 console.log(r);
+										 let json = JSON.parse(r);
+										 let row = null;
+										 clearTable('fragmentos');
+										 json.forEach((element) =>{
+												 row = tab.insertRow(-1);
+												 for(let i = element.length-1; i>=0; i--) {
+														 row.insertCell(0).innerHTML = element[i];
+												 }
+										 });
 								 }
 						 }
 				 }
