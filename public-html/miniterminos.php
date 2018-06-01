@@ -447,7 +447,7 @@
 										 clearTable('fragmentos');
 										 json.forEach((element) =>{
 												 row = tab.insertRow(-1);
-												 for(let i = element.length-1; i>=0; i--) {
+												 for(let i = element.length-1; i>=0; i) {
 														 row.insertCell(0).innerHTML = element[i];
 												 }
 										 });
