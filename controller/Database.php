@@ -16,6 +16,12 @@ class Database {
 				return self::$con;
 		}
 
+		function connect_specific($user,$pass,$host,$database){
+				self::$con = new mysqli($host,$user,$pass,$database);
+				self::$con->set_charset("utf8");
+				return self::$con;
+		}
+
 		public static function getCon(){
 				if(self::$con==null && self::$db==null){
 						self::$db = new Database();

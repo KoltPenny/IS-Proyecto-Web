@@ -29,7 +29,7 @@ function processNeutral(neutral_msg) {
 
 function selectIncorrect(element) {
 	element.style.border="4px solid #ff7777";
-	setTimeout(function(){element.style.border = "none";},6000);
+	setTimeout(function(){element.style.border = "none";},2000);
 }
 
 function cleanInput() {

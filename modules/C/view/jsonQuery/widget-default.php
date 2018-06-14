@@ -4,7 +4,7 @@ if(isset($_POST['json'])) {
 		//error_log($_POST['json']);
 		$json = json_decode($_POST['json']);
 		$size = sizeof($json->body);
-		if($size<2 || $size>2 ) { echo "100";return;}
+		if($size<2 || 2>$size) { echo "100";return;}
 		else {
 				$base = new Database();
 				$con = $base->connect();

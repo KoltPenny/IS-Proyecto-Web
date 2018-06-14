@@ -203,7 +203,7 @@
 						<h4>Valor <i style="font-size:24px" class="fa w3-text-theme">&#xf040;</i></h4>
 						<hr class="w3-clear">
 						<div class="w3-row-padding" style="margin:0 -16px">
-							<input id="valor" class="w3-input w3-border w3-light-grey" type="text" placeholder="Introduzca el valor">
+							<input id="valor" class="w3-input w3-light-grey" type="text" placeholder="Introduzca el valor">
 							<br/><br/>
 						</div>
 					</div>
@@ -226,6 +226,7 @@
 
 							<table id="predicados"></table>
 							<button class="w3-button w3-light-gray" onclick="clearTable('predicados')">Limpiar</button>
+							<br/><br/>
 
 							<br/><br/>
 						</div>
@@ -252,9 +253,26 @@
 							<button class="w3-button w3-light-gray" onclick="clearTable('fragmentos')">Limpiar</button>
 
 							<br/><br/>
+							<!-- select	id="destino" class="w3-select">
+								<option value="192.168.43.168">Destino 1</option>
+								<option value="192.168.43.13">Destino 2</option>
+							</select-->
+							<input id="ip_dest" class="w3-input" placeholder="Dirección destino" />
+							<input id="usr_dest" class="w3-input" placeholder="Usuario" />
+							<input id="pwd_dest" class="w3-input" placeholder="Contraseña" />
+							<br/><br/>
 						</div>
 					</div>
 
+					<div class="w3-row-padding">
+						<div class="w3-col m12">
+							<div class="w3-card w3-round w3-white">
+								<h3 class=" w3-padding">
+									<button class="w3-button w3-teal w3-block" onclick="distributeToDB()">Enviar fragmentos</button>
+								</h3>
+							</div>
+						</div>
+					</div>
 
 					<!-- End Middle Column -->
 				</div>
@@ -445,9 +463,10 @@
 										 let json = JSON.parse(r);
 										 let row = null;
 										 clearTable('fragmentos');
+										 console.log(json);
 										 json.forEach((element) =>{
 												 row = tab.insertRow(-1);
-												 for(let i = element.length-1; i>=0; i) {
+												 for(let i = element.length-1; i>=0; i--) {
 														 row.insertCell(0).innerHTML = element[i];
 												 }
 										 });
@@ -455,6 +474,61 @@
 						 }
 				 }
 				 xhttp.open("POST","control.php?view=jsonQuery", true);
+				 xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+				 xhttp.send("json="+JSON.stringify(lst))
+		 }
+
+		 function distributeToDB()
+		 {
+				 let tab = document.getElementById("fragmentos");
+				 let eel = document.getElementById("relacion");
+				 let ele = eel.options[eel.selectedIndex].text;
+				 let ipd = document.getElementById("ip_dest");
+				 let usd = document.getElementById("usr_dest");
+				 let pwd = document.getElementById("pwd_dest");
+				 let rel = sel.options[sel.selectedIndex].value;
+
+				 
+				 
+				 let lst = {"name":ele,"ip":ipd.value,"usr":usd.value,"pwd":pwd.value,"body":[]};
+				 
+				 for(let i = 0, row; row = tab.rows[i] ; i++) {
+						 
+						 lst.body.push([]);
+						 for(let j = 0, cell; cell = row.cells[j] ; j++)
+								 {
+										 if(Number.isInteger(cell.innerHTML)) lst.body[i].push(cell.innerHTML);
+										 else lst.body[i].push("'"+cell.innerHTML+"'");
+								 }
+				 }
+				 console.log(lst);
+				 
+				 let xhttp = new XMLHttpRequest();
+				 tab = document.getElementById("fragmentos");
+				 xhttp.onreadystatechange = function() {
+						 if (this.readyState == 4 && this.status == 200) {
+								 let r = this.responseText;
+								 if(r=="100") {
+										 console.log("Es necesario elegir exactamente dos elementos.");
+								 }
+								 else if(r=="101") {
+										 errormsg("No hay elementos en la relación.");
+								 }
+								 else {
+										 let json = JSON.parse(r);
+										 let row = null;
+										 clearTable('fragmentos');
+										 console.log(json);
+										 json.forEach((element) =>{
+												 row = tab.insertRow(-1);
+												 for(let i = element.length-1; i>=0; i--) {
+														 row.insertCell(0).innerHTML = element[i];
+												 }
+										 });
+								 }
+						 }
+				 }
+				 xhttp.open("POST","control.php?view=serverSend", true);
 				 xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 				 xhttp.send("json="+JSON.stringify(lst))
 		 }
