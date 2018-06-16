@@ -142,7 +142,7 @@
 								id="relacion"
 										class="w3-select"
 										name="option"
-										onchange="attrFill('getattrs','atributos','Seleccionar atributo',this,'tabInicial')">
+										onchange="attrFill('getattrs2',this,'tabInicial')">
 							</select>
 							<br/><br/>
 						</div>
@@ -158,19 +158,17 @@
 							<br/><br/>
 						</div>
 					</div>
-
-
+					
 					<div class="w3-row-padding">
 						<div class="w3-col m12">
 							<div class="w3-card w3-round w3-white">
-								<div class="w3-container w3-padding">
-									<h3 class="w3-border w3-padding">Definir predicados simples</h3>
-								</div>
+								<h3 class=" w3-padding">
+									<button class="w3-button w3-dark-gray w3-block" onclick="projectionTable('tabInicial')">
+										Generar </button>
+								</h3>
 							</div>
 						</div>
 					</div>
-
-
 
 					<div class="w3-container w3-card w3-white w3-round w3-margin"><br>
 						<h4>Atributo</h4>
@@ -198,26 +196,7 @@
 							<br/><br/>
 						</div>
 					</div>
-
-					<div class="w3-container w3-card w3-white w3-round w3-margin"><br>
-						<h4>Valor <i style="font-size:24px" class="fa w3-text-theme">&#xf040;</i></h4>
-						<hr class="w3-clear">
-						<div class="w3-row-padding" style="margin:0 -16px">
-							<input id="valor" class="w3-input" type="text" placeholder="Introduzca el valor">
-							<br/><br/>
-						</div>
-					</div>
-
-					<div class="w3-row-padding">
-						<div class="w3-col m12">
-							<div class="w3-card w3-round w3-white">
-								<h3 class=" w3-padding">
-									<button class="w3-button w3-dark-gray w3-block" onclick="fillPredTable('predicados')">
-										Generar predicados minitérminos</button>
-								</h3>
-							</div>
-						</div>
-					</div>
+					
 
 					<div class="w3-container w3-card w3-white w3-round w3-margin"><br>
 						<h5></h5>
@@ -254,8 +233,8 @@
 
 							<br/><br/>
 							<!-- select	id="destino" class="w3-select">
-								<option value="192.168.43.168">Destino 1</option>
-								<option value="192.168.43.13">Destino 2</option>
+									 <option value="192.168.43.168">Destino 1</option>
+									 <option value="192.168.43.13">Destino 2</option>
 							</select-->
 							<input id="ip_dest" class="w3-input" placeholder="Dirección destino" />
 							<input id="usr_dest" class="w3-input" placeholder="Usuario" />
@@ -351,6 +330,9 @@
 		</div>
 
 		<script>
+
+		 //Globales
+		 
 		 // Accordion
 		 function myFunction(id) {
 				 var x = document.getElementById(id);
@@ -388,9 +370,31 @@
 		 populateContainerGET("gettables","relacion","Escoge una relación");
 		 
 		 //llenado de atributos
-		 function attrFill(getter,container,container_text,sel,tab) {
-				 populateContainerGETandTable(getter,container,container_text,sel,tab);
+		 function attrFill(getter,sel,tab) {
+				 populateContainerGETandTable2(getter,sel,tab);
 				 document.getElementById("tab").innerHTML = sel.options[sel.selectedIndex].value;
+		 }
+
+		 //Generación de fragmentos a partir de la elección de atributos
+		 function projectionTable(tab) {
+				 let rows = document.getElementById(tab).rows;
+				 let result_table = document.getElementById("predicados");
+				 let list = [];
+
+				 let row = result_table.insertRow(-1);
+				 
+				 for(let i = 0, cell; cell = rows[0].cells[i]; i++) {
+						 if(cell.childNodes[1].checked == true) {
+								 
+								 list.push(cell.childNodes[0].innerHTML);
+						 };
+				 }
+				 let celldesc = row.insertCell(0)
+				 let cellnum = row.insertCell(0);
+				 celldesc.innerHTML = "∏( "+list.join()+" )";
+				 celldesc.style.textAlign = "center";
+				 cellnum.innerHTML = cellnum.parentNode.rowIndex+1;
+				 cellnum.style.textAlign = "center";
 		 }
 
 		 //Llenado de tabla de predicados

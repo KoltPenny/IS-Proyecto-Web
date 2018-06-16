@@ -28,8 +28,8 @@ function processNeutral(neutral_msg) {
 }
 
 function selectIncorrect(element) {
-	element.style.border="4px solid #ff7777";
-	setTimeout(function(){element.style.border = "none";},2000);
+	element.style.background="#ff7777";
+	setTimeout(function(){element.style.background = "none";},2000);
 }
 
 function cleanInput() {
@@ -294,6 +294,26 @@ function populateContainerGETandTable(getter,container,container_text,sel,tab) {
 			
 		}
 	}
+	xhttp.open("GET","control.php?view="+getter+"&id="+sel.options[sel.selectedIndex].innerHTML, true);
+	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	xhttp.send();
+}
+
+function populateContainerGETandTable2(getter,sel,tab) {
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+			if(this.responseText=="error") { processError("Hubo un error"); return;}
+			var table = document.getElementById(tab);
+
+			r = JSON.parse(this.responseText);
+
+			if(table.rows.length>0)	table.deleteRow(0);
+			var row = table.insertRow(-1);
+			for (i = 0; i < r.length; i++) {
+			row.insertCell(0).innerHTML="<label for='cb"+i+"'>"+r[i][0]+" </label><input type='checkbox' id='cb"+i+"'/>";
+		}}}
+	
 	xhttp.open("GET","control.php?view="+getter+"&id="+sel.options[sel.selectedIndex].innerHTML, true);
 	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	xhttp.send();

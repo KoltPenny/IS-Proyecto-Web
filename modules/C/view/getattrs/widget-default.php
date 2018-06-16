@@ -19,4 +19,3 @@ foreach($rows as $key=>$row) {
 		echo "<option name='".$row[1]."'>".$row[0]."</option>";
 }
 ?>
-

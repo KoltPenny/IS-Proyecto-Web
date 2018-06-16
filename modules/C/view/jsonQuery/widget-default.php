@@ -16,15 +16,11 @@ if(isset($_POST['json'])) {
 
 				$query = $con->query($sql);
 				$rows = array();
-				error_log("ROWS BEFORE".count($rows));
+
 				error_log($sql);
 				if(!$query){error_log(mysqli_error($con));exit;}
 				
-				while($row = $query->fetch_row()){
-						$rows[]=$row;
-				}
-
-				error_log("ROWS AFTER".count($rows));
+				while($row = $query->fetch_row()){ $rows[]=$row; }
 				
 				if(count($rows)==0) {	echo "101";	exit; }
 				
